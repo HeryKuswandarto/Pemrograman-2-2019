@@ -5,8 +5,9 @@ public class HitungLuas {
     
     public HitungLuas(){
         cariLuasPersegiPanjang();
-        
+        cariLuasLingkaran();    
     }
+    
     public void cariLuasPersegiPanjang(){
         System.out.println ("Menghitung Luas Persegi Panjang");
         System.out.println ("-------------------------------");
@@ -21,6 +22,16 @@ public class HitungLuas {
         System.out.println();
     }
 
+    public void cariLuasLingkaran(){
+        System.out.println ("Menghitung Luas Lingkaran");
+        System.out.println ("-------------------------");
+        System.out.print ("Masukkan jari-jari : ");
+        String inputradius = scan.nextLine();
+        int radius = Integer.parseInt(inputradius);
+        float luaslingkaran = (float)(22.0/7.0)*radius*radius;
+        System.out.println("Luas lingkaran      : "+luaslingkaran);      
+    }
+    
     public static void main(String[] args) {
         new HitungLuas();
     }    
