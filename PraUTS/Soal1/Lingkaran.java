@@ -38,7 +38,7 @@ public class Lingkaran {
     
     public void proses(){
         //hitung jarak antara titik pusat lingkaran
-        jarakantarpusatlingkaran=Math.sqrt((Math.pow((x2-x1),2))+(Math.pow((y2-x1),2)));
+        jarakantarpusatlingkaran=Math.sqrt((Math.pow((x2-x1),2))+(Math.pow((y2-y1),2)));
         double mumet;
         mumet=jarakantarpusatlingkaran-(r1+r2);
         if (mumet>0){
