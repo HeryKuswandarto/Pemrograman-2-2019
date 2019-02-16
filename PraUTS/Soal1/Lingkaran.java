@@ -49,9 +49,7 @@ public class Lingkaran {
         }
         if (mumet<0){
             double selisihjarijari;
-            double mumet1;
             selisihjarijari=Math.abs(r1-r2);
-            mumet1=selisihjarijari-jarakantarpusatlingkaran;
             if (jarakantarpusatlingkaran>selisihjarijari){
                 result=("C1 dan C2 beririsan");                
             } else {
